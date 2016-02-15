@@ -1,0 +1,25 @@
+{
+  "name": "node-tuts",
+  "version": "1.0.0",
+  "description": "A collection of tutorials on Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoven78/node-tuts.git"
+  },
+  "keywords": [
+    "Learning",
+    "Node.js",
+    "Node",
+    "Tutorials"
+  ],
+  "author": "Stevenson Michel <thoven87@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thoven78/node-tuts/issues"
+  },
+  "homepage": "https://github.com/thoven78/node-tuts#readme"
+}
