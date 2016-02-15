@@ -1,0 +1,28 @@
+{
+  "name": "simple-api",
+  "version": "1.0.0",
+  "description": "A simple REST API using express",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoven78/node-tuts.git"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "Node"
+  ],
+  "author": "Stevenson Michel <thoven87@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thoven78/node-tuts/issues"
+  },
+  "homepage": "https://github.com/thoven78/node-tuts#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
+}
