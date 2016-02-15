@@ -1,5 +1,8 @@
 # A collection of tutorials on Node.js
 
+**NOTE these tutorials are not pre ES6 friendly**
+
+****
 ## The directory structure is as follow
 
 - hello
@@ -11,6 +14,13 @@
     - console.warn
     - console.trace
 - http
+  - Create a simple http server in node
+  - Running the http server node http/index.js
+  - Calling the server from the terminal
+    ```
+    curl -d "{name: 'Stevenson Michel'}" http://localhost:8080/pipe
+    ```
+    It should print ```{name: 'Stevenson Michel'}``` back to the console
 - inspect
   * The inspect function is an alias for console.dir
 - node-debug
