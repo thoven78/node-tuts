@@ -34,4 +34,8 @@
     - First run npm install -g node-inspector (NOTE: you have to put sudo in front)
     - node-debug node-debug/debug.js
 - fs
+  - Using the file api
+    - The file api have both asynchronous and synchronous methods
+    - In this tutorial we will learn how to create and read file synchronously and asynchronously
+    - We will later revisit this tutorial using Promise, async async series, parallel e.t.c
 - npm
