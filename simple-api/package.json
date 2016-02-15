@@ -4,7 +4,8 @@
   "description": "A simple REST API using express",
   "main": "server.js",
   "scripts": {
-    "test": "npm run test"
+    "start": "node server.js",
+    "test": "node ./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,9 @@
   "dependencies": {
     "body-parser": "^1.15.0",
     "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
   }
 }
