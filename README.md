@@ -39,3 +39,5 @@
     - In this tutorial we will learn how to create and read file synchronously and asynchronously
     - We will later revisit this tutorial using Promise, async async series, parallel e.t.c
 - npm
+  - npm is the package manager for Node.js
+  - The package.json file was created with the following command ```npm init``` and follow the direction
