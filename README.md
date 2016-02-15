@@ -20,7 +20,7 @@
     ```
     curl -d "{name: 'Stevenson Michel'}" http://localhost:8080/pipe
     ```
-    It should print ```{name: 'Stevenson Michel'}``` back to the console
+    It should print `{name: 'Stevenson Michel'}` back to the console
 - inspect
   * The inspect function is an alias for console.dir
 - node-debug
@@ -40,14 +40,16 @@
     - We will later revisit this tutorial using Promise, async async series, parallel e.t.c
 - npm
   - npm is the package manager for Node.js
-  - The package.json file was created with the following command ```npm init``` and follow the direction
+  - The package.json file was created with the following command `npm init` and follow the direction
 - Simple REST API
-  - Running the server cd simple-api && node server.js
+  - To get started `cd simple-api` and the run `npm install`
+  - Running the server `npm start`
+  - Running tests `npm test`
   - This API has two GET routes
-  - ```/api/v1/complaints``` returns 9 complaints
-  - ```/api/v1/complaints?skip=3``` returns 9 items from the 3 page
-    - ```/api/v1/complaints?skip=3&limit=12``` returns 12 items from the 3 page
-  - ```/api/v1/complaints/:index``` takes an index and does a lookup to see if a a given index is in the data set
+  - `/api/v1/complaints` returns 9 complaints
+  - `/api/v1/complaints?skip=3` returns 9 items from the 3 page
+    - `/api/v1/complaints?skip=3&limit=12` returns 12 items from the 3 page
+  - `/api/v1/complaints/:index` takes an index and does a lookup to see if a a given index is in the data set
   - The dataset came form data.gov
   you can call the api with the following commands:
    ```
