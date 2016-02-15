@@ -42,10 +42,23 @@
   - npm is the package manager for Node.js
   - The package.json file was created with the following command ```npm init``` and follow the direction
 - Simple REST API
+  - Running the server cd simple-api && node server.js
   - This API has two GET routes
   - ```/api/v1/complaints``` returns 9 complaints
   - ```/api/v1/complaints?skip=3``` returns 9 items from the 3 page
     - ```/api/v1/complaints?skip=3&limit=12``` returns 12 items from the 3 page
   - ```/api/v1/complaints/:index``` takes an index and does a lookup to see if a a given index is in the data set
   - The dataset came form data.gov
-  you can call the api with the following command ```curl http://localhost:8080/api/v1/complaints/10 | python -mjson.tool```
+  you can call the api with the following commands:
+   ```
+    curl http://localhost:8080/api/v1/complaints | python -mjson.tool
+   ```
+   ```
+    curl http://localhost:8080/api/v1/complaints?skip=2 | python -mjson.tool
+   ```
+   ```
+    curl http://localhost:8080/api/v1/complaints?skip=2&limit=12 | python -mjson.tool
+   ```
+   ```
+    curl http://localhost:8080/api/v1/complaints/10 | python -mjson.tool
+   ```
