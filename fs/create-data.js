@@ -11,10 +11,10 @@ let data = Object.create(null);
  */
 data.users = [];
 
-let iid = 1;
+let iid = 0;
 
 do {
-  data.users[iid] = (Math.random() * iid).toString(32);
+  data.users[iid] = (Math.random() * (iid + 1)).toString(32);
   ++iid;
 } while(iid < 20);
 
