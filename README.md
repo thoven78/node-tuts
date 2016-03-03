@@ -63,3 +63,5 @@
    ```
     curl http://localhost:8080/api/v1/complaints/10 | python -mjson.tool
    ```
+- Word count program using MAP Reduce
+  - So we feel like a data miner
